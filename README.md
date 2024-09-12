@@ -5,7 +5,7 @@ Este é um projeto de uma página web criada para compartilhar minhas reflexões
 
 ## 🌐 Demonstração
 
-Você pode visualizar o projeto ao vivo [aqui](#) (adicione o link quando estiver disponível).
+Você pode visualizar o projeto ao vivo [aqui](https://mpbarcelo.github.io/educamidia-multiplicadores/).
 
 ## 📋 Conteúdos
 
@@ -32,7 +32,7 @@ Para rodar este projeto localmente:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/educacao-midiatica.git
+   git clone https://mpbarcelo.github.io/educamidia-multiplicadores/
    ```
 2. Navegue até a pasta do projeto:
    ```bash
@@ -54,12 +54,4 @@ Este projeto não possui uma licença específica. Sinta-se à vontade para usá
 
 ---
 
-Desenvolvido com 💛 por **Márcia Barceló**.
-```
-
-### Observações:
-- **Link de Demonstração**: Você pode adicionar o link para o site quando ele estiver publicado.
-- **Repositório GitHub**: Substitua os links dos repositórios (`https://github.com/seu-usuario/educacao-midiatica`) pelos seus.
-- **Contribuições**: Esta seção é útil caso você deseje que outras pessoas colaborem no projeto.
-
-Se precisar de mais alguma coisa ou de ajustes no README, é só avisar! 😊
+Desenvolvido com 💛 por **Márcia Barcelo**.
