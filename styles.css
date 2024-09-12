@@ -1,0 +1,417 @@
+/* Estilo geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+:root {
+  --black-color: #000000;
+  --yellow-color: #e0bb00;
+  --white-color: #ffffff;
+  --padding: 40px 4%;
+  --typing-speed: 4s; /* Velocidade da digitação */
+}
+
+body {
+  background-color: var(--black-color);
+  height: 100vh;
+}
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.interface h1 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Estilo do header */
+header {
+  padding: var(--padding);
+}
+
+header > .interface {
+  color: var(--yellow-color);
+  font-size: 2.5rem;
+  text-align: center;
+  animation: typing var(--typing-speed) steps(30, end) forwards;
+}
+
+/* Animação do efeito digitando */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Estilos do Todo-do-site */
+section.topo-do-site {
+  padding: var(--padding);
+}
+.flex {
+  display: flex;
+}
+section.topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.topo-do-site h1 {
+  color: var(--white-color);
+  font-size: 50px;
+  line-height: 40px;
+}
+.topo-do-site h1 span {
+  color: var(--yellow-color);
+  font-size: 94px;
+}
+
+.topo-do-site .txt-topo-site p {
+  color: var(--white-color);
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.topo-do-site .txt-topo-site p span {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--yellow-color);
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  box-shadow: 0px 0px 0.5rem var(--yellow-color);
+  transform: scale(1.05);
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 2rem;
+  }
+}
+.topo-do-site .img-topo-site img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1rem var(--yellow-color);
+}
+
+/* Estilo do aprendi */
+section.aprendi {
+  padding: 5rem 4%;
+  box-shadow: 0 0 2.5rem 0.625rem #ffffff1d;
+}
+section.aprendi .flex {
+  align-items: center;
+  gap: 3.75rem;
+}
+.img-aprendi img {
+  border-radius: 1.25rem;
+  width: 600px;
+  height: 500px; /* Ajustar altura automaticamente */
+  object-fit: cover;
+  box-shadow: 0 0 0.5rem var(--yellow-color);
+}
+.aprendi .txt-aprendi {
+  color: var(--white-color);
+}
+.aprendi .txt-aprendi h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.875rem;
+}
+.aprendi .txt-aprendi h2 span {
+  color: var(--yellow-color);
+  display: block;
+}
+.aprendi .txt-aprendi p {
+  margin: 1.25rem 0;
+  text-align: justify;
+}
+.aprendi .txt-aprendi .btn-social button {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--yellow-color);
+  font-size: 1.5625rem;
+  cursor: pointer;
+  margin: 0 0.3125rem;
+  transform: 0.2s;
+}
+
+/* Estilo do integrar */
+section.integrar {
+  padding: 5rem 4%;
+  box-shadow: 0 0 2.5rem 0.625rem #ffffff1d;
+}
+section.integrar .flex {
+  align-items: center;
+  gap: 3.75rem;
+}
+.img-integrar img {
+  border-radius: 1.25rem;
+  width: 600px;
+  height: 500px; /* Ajustar altura automaticamente */
+  object-fit: cover;
+  box-shadow: 0 0 0.5rem var(--yellow-color);
+}
+.integrar .txt-integrar {
+  color: var(--white-color);
+}
+.integrar .txt-integrar h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.875rem;
+}
+.integrar .txt-integrar h2 span {
+  color: var(--yellow-color);
+  display: block;
+}
+.integrar .txt-integrar p {
+  margin: 1.25rem 0;
+  text-align: justify;
+}
+.integrar .txt-integrar .btn-social button {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--yellow-color);
+  font-size: 1.5625rem;
+  cursor: pointer;
+  margin: 0 0.3125rem;
+  transform: 0.2s;
+}
+
+/* Estilo do multiplicar */
+section.multiplicar {
+  padding: 5rem 4%;
+  box-shadow: 0 0 2.5rem 0.625rem #ffffff1d;
+}
+section.multiplicar .flex {
+  align-items: center;
+  gap: 3.75rem;
+}
+.img-multiplicar img {
+  border-radius: 1.25rem;
+  width: 600px;
+  height: 500px; /* Ajustar altura automaticamente */
+  object-fit: cover;
+  box-shadow: 0 0 0.5rem var(--yellow-color);
+}
+.multiplicar .txt-multiplicar {
+  color: var(--white-color);
+}
+.multiplicar .txt-multiplicar h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.875rem;
+}
+.multiplicar .txt-multiplicar h2 span {
+  color: var(--yellow-color);
+  display: block;
+}
+.multiplicar .txt-multiplicar p {
+  margin: 1.25rem 0;
+  text-align: justify;
+}
+.multiplicar .txt-multiplicar .btn-social button {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--yellow-color);
+  font-size: 1.5625rem;
+  cursor: pointer;
+  margin: 0 0.3125rem;
+  transform: 0.2s;
+}
+
+/* Estilo do footer */
+.rodape {
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.rodape a {
+  color: var(--yellow-color);
+}
+.rodape h4 {
+  color: var(--white-color);
+}
+.rodape-itens {
+  text-align: center;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+  section.topo-do-site .flex {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .topo-do-site .img-topo-site img {
+    max-width: 400px;
+  }
+  .topo-do-site .txt-topo-site h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .topo-do-site .txt-topo-site .btn-contato {
+    text-align: center;
+  }
+  .topo-do-site .txt-topo-site p {
+    text-align: justify;
+    padding: 20px;
+  }
+  section.aprendi .flex{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .aprendi .img-aprendi img {
+    width: 350px;
+    height: auto;
+  }
+  .txt-aprendi h2{
+    text-align: center;
+  }
+  .txt-aprendi p{
+    text-align: justify;
+    padding: 20px;
+  }
+  section.integrar .flex{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+  .integrar .img-integrar img {
+    width: 350px;
+    height: auto;
+  }
+  .txt-integrar h2{
+    text-align: center;
+  }
+  .txt-integrar p{
+    text-align: justify;
+    padding: 20px;
+  }
+  section.multiplicar .flex{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .multiplicar .img-multiplicar img {
+    width: 350px;
+    height: auto;
+  }
+  .txt-multiplicar h2{
+    text-align: center;
+  }
+  .txt-multiplicar p{
+    text-align: justify;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .interface h1 {
+    font-size: 1.5rem;
+  }
+
+  section.sobre .flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centraliza o texto em telas menores */
+  }
+
+  .img-sobre img {
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .topo-do-site h1 {
+    font-size: 1.5rem;
+  }
+
+  .topo-do-site h1 span {
+    font-size: 70px;
+  }
+
+  .btn-contato button {
+    padding: 8px 30px;
+    font-size: 16px;
+  }
+
+  .sobre .txt-sobre h2 {
+    font-size: 2rem;
+  }
+
+  .sobre .txt-sobre p {
+    padding: 20px;
+    font-size: 0.875rem;
+  }
+
+  .btn-social button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  section.sobre {
+    padding: 3rem 2%;
+  }
+
+  .topo-do-site .txt-topo-site p {
+    font-size: 0.875rem;
+  }
+
+  .topo-do-site h1 {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .topo-do-site h1 span {
+    font-size: 60px;
+  }
+
+  .img-sobre img {
+    width: 200px;
+    height: auto;
+  }
+
+  .sobre .txt-sobre h2 {
+    font-size: 1.75rem;
+  }
+
+  .sobre .txt-sobre p {
+    font-size: 0.75rem;
+  }
+}
