@@ -36,7 +36,7 @@ Para rodar este projeto localmente:
    ```
 2. Navegue até a pasta do projeto:
    ```bash
-   cd educacao-midiatica
+   cd educamidia-multiplicadores
    ```
 3. Abra o arquivo `index.html` no seu navegador.
 
